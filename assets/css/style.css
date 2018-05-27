@@ -8,6 +8,15 @@ html, body {
   overflow-x: hidden;
 }
 
+.main {
+  display: grid;
+  grid-template-areas:
+    'navbar'
+    'home'
+    'us'
+    'services';
+}
+
 .nav-item {
   padding-right: 10px;
 }
@@ -43,14 +52,43 @@ html, body {
   background-image: url('../img/homeBackground.jpg');
   background-size: cover;
   height: 100vh;
+  grid-area: home;
   display: grid;
   grid-template-areas: 
-    'navbar'
-    'home-content';
+    '.        .        .'
+    '.        .        .'
+    '.  home-content   .'
+    '.        .        .';
+}
+
+.us {
+  grid-area: us;
+}
+
+.services {
+  grid-area: services;
+}
+
+.info {
+  background-image: url('../img/servicesBackground.jpg');
+  background-size: cover;
+}
+
+.info-title {
+  margin-top: 3%;
+}
+
+.info-text {
+  margin-bottom: 8%;
 }
 
 .home-content {
   grid-area: home-content;
+}
+
+.us-content {
+  margin-top: 3%;
+  margin-bottom: 2%;
 }
 
 .text-secondary {
@@ -58,8 +96,12 @@ html, body {
 }
 
 .display-5 {
-  font-size: 2em;
+  font-size: 3em;
 }
+
+.display-6 {
+  font-size: 2em;
+} 
 
 .btn-home {
   background-color: #04b69f;
@@ -86,8 +128,13 @@ html, body {
   background-color: transparent;
 }
 
+.scrolled {
+  background-color: #7c057e;
+  transform: 0.5s;
+}
+
 @media only screen and (max-width: 767px){
   .bg-purple {
-    background-color: #7c057ecb;
+    background-color: #7c057e;
   }
 }
