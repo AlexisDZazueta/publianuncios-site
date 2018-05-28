@@ -66,6 +66,10 @@ html, body {
     '.        .        .';
 }
 
+.slogan {
+  margin-top: 150px;
+}
+
 .us {
   grid-area: us;
 }

@@ -1,0 +1,60 @@
+{
+  "icons": [
+    {
+      "src": "./assets/img/logo256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "./assets/img/logo192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./assets/img/logo128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "./assets/img/logo96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "./assets/img/logo64.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    },
+    {
+      "src": "./assets/img/logo48.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    },
+    {
+      "src": "./assets/img/logo32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "./assets/img/logo24.png",
+      "sizes": "24x24",
+      "type": "image/png"
+    },
+    {
+      "src": "./assets/img/logo16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    }
+  ],
+  "name": "Publianuncios Web Site",
+  "orientation": "portrait",
+  "author": "Roxogu DevTeam",
+  "display": "standalone",
+  "start_url": "/",
+  "short_name": "Publianuncios",
+  "description": "Web Site develop by Roxogu DevTeam for Publianuncios",
+  "scope": "./",
+  "lang": "es",
+  "background_color": "#04b69f",
+  "theme_color": "#94097d"
+}
