@@ -50,6 +50,7 @@ html, body {
 
 .navbar {
   grid-area: navbar;
+  transition: 0.3s;
 }
 
 .home {
