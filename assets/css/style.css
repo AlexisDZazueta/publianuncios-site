@@ -258,19 +258,7 @@ input {
   }
 }
 
-.project {
-  margin-top: 20px;
-}
-
-.roxogu:hover {
-  text-decoration: none;
-} 
-
 @media only screen and (min-width: 768px){
-  .bg-purple {
-    background-color: #94097D;
-  }
-
   .hidden-md {
     display: none;
   }
@@ -285,3 +273,11 @@ input {
     border-radius:100px;
   }
 }
+
+.project {
+  margin-top: 20px;
+}
+
+.roxogu:hover {
+  text-decoration: none;
+} 
