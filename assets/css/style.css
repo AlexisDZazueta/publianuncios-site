@@ -14,7 +14,11 @@ html, body {
     'navbar'
     'home'
     'us'
-    'services';
+    'services'
+    'portfolio'
+    'customers'
+    'contact'
+    'footer';
 }
 
 .nav-item {
@@ -69,6 +73,35 @@ html, body {
   grid-area: services;
 }
 
+.portfolio {
+  grid-area: portfolio;
+}
+
+.contact {
+  grid-area: contact;
+}
+
+.portfolio img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.customers {
+  grid-area: customers;
+}
+
+.customers img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+footer {
+  grid-area: footer;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background-color: #94097D;
+}
+
 .info {
   background-image: url('../img/servicesBackground.jpg');
   background-size: cover;
@@ -87,6 +120,16 @@ html, body {
 }
 
 .us-content {
+  margin-top: 3%;
+  margin-bottom: 2%;
+}
+
+.customers-content {
+  margin-top: 3%;
+  margin-bottom: 2%;
+}
+
+.contact-content {
   margin-top: 3%;
   margin-bottom: 2%;
 }
@@ -116,6 +159,16 @@ html, body {
   color: #ffffff;
 }
 
+.btn-submit {
+  background-color: #04b69f;
+  border-color: #04b69f;
+  color: #ffffff;
+  box-shadow: 0 0 1px  rgba(0,0,0,0.6);
+  margin-bottom: 20px;
+  margin-top: 10px;
+  width: 20%;
+}
+
 .outline {
   background-color: transparent;
 }
@@ -129,12 +182,101 @@ html, body {
 }
 
 .scrolled {
-  background-color: #7c057e;
-  transform: 0.5s;
+  background-color: #94097D;
+  transition: 0.3s;
+}
+
+.offer {
+  padding-bottom: 80px;
+}
+
+.gabinete {
+  color: #8F0069;
+}
+
+.neon {
+  color: #FF414C;
+}
+
+.aluminio {
+  color: #00CDDA;
+}
+
+.senaletica {
+  color: #FF5328;
+}
+
+.circle > p {
+  margin-bottom: 0px;
+}
+
+.map {
+  width: 100%;
+  height: 100%;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+input {
+  margin-bottom: 20px;
 }
 
 @media only screen and (max-width: 767px){
   .bg-purple {
-    background-color: #7c057e;
+    background-color: #94097D;
+  }
+
+  .hidden-sm {
+    display: none;
+  }
+
+  .map {
+    margin-bottom: 150px;
+  }
+
+  .btn-submit {
+    width: 100%;
+  }
+
+  .circle {
+    display: inline-block;
+    width:120px;
+    height:120px;
+    margin-bottom: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+    border-radius:100px;
+  }
+}
+
+.project {
+  margin-top: 20px;
+}
+
+.roxogu:hover {
+  text-decoration: none;
+} 
+
+@media only screen and (min-width: 768px){
+  .bg-purple {
+    background-color: #94097D;
+  }
+
+  .hidden-md {
+    display: none;
+  }
+
+  .circle {
+    position: absolute;
+    bottom: -20px;
+    width:120px;
+    height:120px;
+    background-color: #fff;
+    box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+    border-radius:100px;
   }
 }
