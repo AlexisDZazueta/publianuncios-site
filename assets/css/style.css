@@ -249,12 +249,19 @@ input {
     display: inline-block;
     width:120px;
     height:120px;
-    margin-bottom: 25px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 15px;
+    margin-bottom: 10px;
     background-color: #fff;
     box-shadow: 0 0 10px  rgba(0,0,0,0.6);
     border-radius:100px;
+  }
+
+  .first-circle {
+    margin-left: -15px;
+  }
+
+  .offer {
+    padding-bottom: 10px;
   }
 }
 
@@ -264,13 +271,18 @@ input {
   }
 
   .circle {
-    position: absolute;
-    bottom: -20px;
     width:120px;
     height:120px;
     background-color: #fff;
+    margin-bottom: 5px;
     box-shadow: 0 0 10px  rgba(0,0,0,0.6);
     border-radius:100px;
+    cursor: pointer;
+  }
+
+  .carousel {
+    position: absolute;
+    bottom: -730px;
   }
 }
 
